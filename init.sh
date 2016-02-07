@@ -102,5 +102,6 @@ else
 fi
 
 #/usr/sbin/sshd -D
+touch /tmp/mesos.log
 tail -f /tmp/mesos.log
 
